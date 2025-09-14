@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+<body>
+    <h2>Form in html</h2>
+    <form action="resume.html">
+   <label for="">Enter Your First Name:</label>
+     <input type="" minlength="4" maxlength="9"required placeholder="First Name"/>
+     <label for="">Last Name:</label>
+        <input type="text" placeholder="Last Name"/>
+        <br><br>
+        <label for="">Age</label>
+        <input type="number" placeholder="Age"/>
+        <br><br>
+        <label for="">Email</label>
+        <input type="email" placeholder="email"/>
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" placeholder="password"/>
+        <br><br>
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Confirm password"/>
+        <br><br>
+        <label for="">Date of Birth</label>
+        <input type="date" placeholder="date of Birth"/>
+        <br><br>
+        <label for="">Phone Number</label>
+        <input type="phone number" placeholder="phone no"/>
+        <br><br>
+        <p>Chose your Shirt Size</p>
+       <input type="radio" name="Shirt"> <label for="">Small</label>
+         <input type="radio" name="Shirt"> <label for="">Medium</label>
+           <input type="radio" name="Shirt"> <label for="">Large</label>
+             <input type="radio" name="Shirt"> <label for="">Extra Large</label>
+             <br>
+        <label for="Colour"> Slect Your Shirt Colour</label>
+         <input type="color" id="Colour"/>
+             <br><br>
+            <label for="PaymentOption"> Plese Select Payment method</label>
+            <select name="PaymentOption" id="PaymentOption">
+                <option value="">Select</option>
+                <option value="CreditCard">Credit Card</option>
+                <option value="DebitCard">Debit Card</option>
+                <option value="PayPal">PayPal</option>
+                <option value="NetBanking">Net Banking</option>
+                <option value="UPI">UPI</option>
+                <option value="COD">Cash on delivery</option>
+            </select>
+            <br><br>
+                <label for="feedback">Please Provide your valuable feedback:</label>
+                <!-- input type: Text area -->
+                 <textarea name="feedback" id="feedback" rows="4" cols="40" placeholder="plese give your feedback..!"></textarea>
+                 <br><br>
+                    <!-- input type: checkbox -->
+                    <input type="checkbox" required> 
+                    <label for="">I agree to the terms and conditions</label>
+                    <br><br>
+                    <!-- input type: submit and reset -->
+                 <input type="reset">
+                    <input type="submit">
+         </form>
+</body>
+</html>
